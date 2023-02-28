@@ -11,7 +11,7 @@ app.set('views', 'views');
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-abhivc:imabhi@cluster0.dlbs0.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://admin-abhivc:****@cluster0.dlbs0.mongodb.net/todolistDB");
 
 app.use(ListRoutes);
 
